@@ -1,9 +1,9 @@
 import java.util.*;
 import java.io.*;
 
-public class AirportManager {
+public class AircraftManager {
 
-    public static ArrayList<Airport> airports = Main.listMaker();
+    public static ArrayList<Aircraft> aircrafts = Main.listMaker2();
     
 
     public void delete() {
@@ -20,7 +20,7 @@ public class AirportManager {
     }
 
     public static void main(String[] args) {
-        System.out.println(airports);
+        System.out.println(aircrafts);
         Scanner input = new Scanner(System.in);
     }
 }
